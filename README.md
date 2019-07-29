@@ -1,4 +1,15 @@
-# new_rep
-first_sample_repository
+testing
+________
 
-editing the readme.md file to commit changes to the repository
+##Prerequisites:
+install packages sys, pytest
+##Process:
+###from data directory:
+edit database.yml
+```
+run create_tables, to create databases and insert data
+```
+```
+run create_dfs, to create sample dataframes(pickle files)
+```
+
