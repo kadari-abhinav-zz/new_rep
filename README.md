@@ -1,10 +1,10 @@
 testing
 ________
 
-##Prerequisites:
+## Prerequisites:
 install packages sys, pytest
-##Process:
-###from data directory:
+## Process:
+### from data directory:
 edit database.yml
 ```
 run create_tables, to create databases and insert data
