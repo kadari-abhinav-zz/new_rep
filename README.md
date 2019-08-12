@@ -1,15 +1,21 @@
-testing
-________
+#testing predicition model
+__________________________
 
 ## Prerequisites:
-install packages sys, pytest
-## Process:
-### from data directory:
-edit database.yml
 ```
-run create_tables, to create databases and insert data
+run install_packages.R file from 'models/predict' directory
 ```
 ```
-run create_dfs, to create sample dataframes(pickle files)
+install package 'testthat'
 ```
+### from test predict directory
+```
+run commands in the following order:
+pytest -v test_fabfile.py
+pytest -v test_conf.py
+pytest -v test_etl.py
+python insert_data.py
+(to insert required data into the generated tsv)
 
+Rscript run_tests.R
+```
