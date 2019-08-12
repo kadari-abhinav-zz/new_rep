@@ -1,5 +1,4 @@
 # testing predicition model
-__________________________
 
 ## Prerequisites:
 ```
